@@ -10,7 +10,7 @@ let relatives=["Gauri","Gaurav","Shubham"];
             <div id="main">
             <ol key="relativeList">
             {relatives.map((relative,index)=>(
-        <li key={`relativeListitem$(index+1)`}>{relative}</li>
+        <li key={`relativeListItem$(index+1)`}>{relative}</li>
         ))}
             </ol>
                {/* Do not remove the main div */}
